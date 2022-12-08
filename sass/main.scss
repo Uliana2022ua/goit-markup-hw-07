@@ -1,10 +1,11 @@
 @import "./utils/variables";
+@import "./utils/common";
 @import "./base/base";
 @import "./utils/visually-hidden";
 @import "./components/logo";
-@import "./components/modal";
-@import "./components/page-header/header-logo ";
 @import "./components/page-header/header";
+@import "./components/page-header/header-logo ";
 @import "./components/page-header/navigation";
 @import "./components/page-header/contacts";
 @import "./components/clients";
+@import "./components/modal";

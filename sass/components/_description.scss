@@ -1,0 +1,44 @@
+.description {
+    padding-bottom: 0px;
+}
+
+.description__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.description__item {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+
+.description__icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+}
+
+.description__title {
+    color: $main-color;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.description__task {
+    margin-top: 10px;
+        margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $second-color;
+}
