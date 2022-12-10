@@ -20,6 +20,9 @@ img {
     height: auto;
 }
 
+.link {
+    text-decoration: none;
+}
 .link:hover,
 .link:focus {
     color: $accent-color;
