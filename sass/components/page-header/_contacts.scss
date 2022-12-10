@@ -16,14 +16,17 @@
     color: $second-color;
     fill: $second-color;
     transition: color 250ms $cubic, fill 250ms $cubic;
-
+   
     &:hover,
     &:focus {
-        color: $accent-color;
-        fill: $accent-color;
-    }
+            color: $accent-color;
+            fill: $accent-color;
+        }
 }
 
 .contact__icon {
     margin-right: 10px;
 }
+
+
+

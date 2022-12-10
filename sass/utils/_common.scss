@@ -19,6 +19,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.link:hover,
+.link:focus {
+    color: $accent-color;
+    transition: color 250ms $cubic;
+}
 .section-title {
     margin: 0;
     padding: 0;

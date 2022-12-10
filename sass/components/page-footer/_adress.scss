@@ -1,0 +1,36 @@
+
+
+.address {
+    font-style: normal;
+    gap: 9px;
+}
+
+.address__link {
+    line-height: 1.7;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms $cubic;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+
+
+.address__link--color-white {
+    color: $third-color;}
+.adress__contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    &:hover,
+    &:focus {
+            color: $accent-color;
+        }
+}
