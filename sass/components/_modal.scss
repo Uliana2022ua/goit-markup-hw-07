@@ -163,6 +163,11 @@ form p {
 }
 
 
+textarea {
+    resize: none;
+    height: 120px;
+}
+
 .form__checkbox-field {
     display: flex;
     align-items: center;
@@ -199,7 +204,6 @@ form p {
     align-self: center;
     justify-content: center;
     opacity: 0;
-    border: 2px solid #212121;
     border-radius: 2px;
 }
 
